@@ -7,11 +7,11 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin-top: 10px;
-    background: linear-gradient(-45deg, #ee7752, #8c02fd, #0273f5, #02b854);
+    background: linear-gradient(-45deg, #272727, #494747, #616060, #9e9b9c);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 25s ease infinite;
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -42,7 +42,7 @@ body{
     width: 20px;
     text-align: center;
     border-bottom: 4px solid #000000;
-    color: #ffffff;
+    color: #EDEDED;
     padding: 2px;
     margin-left: 2px;
     margin-right: 2px;
@@ -51,7 +51,7 @@ body{
 .letrasEspaco{
     width: 16px;
     text-align: center;
-    color: #ffffff;
+    color: #EDEDED;
     padding: 2px;
     margin-left: 2px;
     margin-right: 2px;
@@ -70,7 +70,7 @@ body{
     box-shadow:  0px 2px 8px dimgray;
     border-radius: 5px;
     border: 1px solid dimgrey;  
-    color: #ec0303;
+    color: #DA0037;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
 }
@@ -87,6 +87,7 @@ body{
     margin-top: 20px;
     color: #000000;
     font-size: 1.2em;
+    
 }
 
 #abreModalAddPalavra, #recarregar, #jogarAutomatico, #jogarNovamente{
@@ -148,7 +149,7 @@ body{
 
 .modal-add-palavra{
     position: relative;
-    background-color: #fefefe;
+    background-color: #EDEDED;
     border: 10px solid #000;
     border-radius: 5px;
     text-align: center;
@@ -187,7 +188,7 @@ body{
 }
 
 .close:hover, .close:focus{
-    color: #fff;
+    color: #EDEDED;
     text-decoration: none;
 }
 
@@ -245,7 +246,7 @@ body{
     }
 
     #categoria{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 }
 
@@ -255,7 +256,7 @@ body{
         height: 36px;
     }
     #palavra-secreta{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     .letras{
         width: 20px;

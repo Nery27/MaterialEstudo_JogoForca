@@ -62,12 +62,12 @@ function verificaLetraEscolhida(letra){
 function mudarStyleLetra(tecla, condicao){
     if(condicao == false)
     {
-        document.getElementById(tecla).style.background = "#C71585";
-        document.getElementById(tecla).style.color = "#ffffff";
+        document.getElementById(tecla).style.background = "#DA0037";
+        document.getElementById(tecla).style.color = "#EDEDED";
     }
     else{
         document.getElementById(tecla).style.background = "#008000";
-        document.getElementById(tecla).style.color = "#ffffff";
+        document.getElementById(tecla).style.color = "#EDEDED";
     }
 
     
@@ -212,251 +212,279 @@ function carregaListaAutomatica(){
     palavras = [
         palavra001 = {
             nome: "NIRVANA",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra002 = {
             nome: "METALLICA",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra003 = {
             nome: "AEROSMITH",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra004 = {
             nome: "BARAO VERMELHO",
-            categoria:"BANDAS"
+            categoria:"BANDAS NAC"
         },
         palavra005 = {
             nome: "GUNS N ROSES",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra006 = {
             nome: "SEPULTURA",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra007 = {
             nome: "FOO FIGHTERS",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra008 = {
             nome: "LEGIAO URBANA",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra009 = {
             nome: "THE OFFSPRING",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra010 = {
             nome: "THE ROLLING STONES",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra011 = {
             nome: "IRON MAIDEN",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra012 = {
             nome: "BLACK SABBATH",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra013 = {
             nome: "PINK FLOYD",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra014 = {
             nome: "BON JOVI",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra015 = {
             nome: "PEARL JAM",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra016 = {
             nome: "THE BEATLES",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra017 = {
-            nome: "RED HOT CHILLI PEPPERS",
-            categoria:"BANDAS"
+            nome: "LOS HERMANOS",
+            categoria:"BANDA NAC"
         },
         palavra018 = {
             nome: "LINKIN PARK",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
         },
         palavra019 = {
             nome: "BIQUINI CAVADAO",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra020 = {
             nome: "PARALAMAS DO SUCESSO",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra021 = {
             nome: "ULTRAGE A RIGOR",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra022 = {
             nome: "CHARLIE BROWN JR",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra023 = {
             nome: "ENGENHEIROS DO HAWAII",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra024 = {
             nome: "CAPITAL INICIAL",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra025 = {
             nome: "DETONAUTAS",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra026 = {
             nome: "PLANET HEMP",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra027 = {
             nome: "ROUPA NOVA",
-            categoria:"BANDAS"
+            categoria:"BANDA NAC"
         },
         palavra028 = {
             nome: "AXL ROSE",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra029 = {
             nome: "SLASH",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra030 = {
             nome: "FREDDIE MERCURY",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra031 = {
             nome: "JON BON JOVI",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra032 = {
             nome: "BRUCE DICKINSON",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra033 = {
             nome: "RENATO RUSSO",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR NAC"
         },
         palavra034 = {
             nome: "ELVIS PRESLEY",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra035 = {
             nome: "KURT COBAIN",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra036 = {
             nome: "PAUL MCCARTNEY",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra037 = {
             nome: "JIMI HENDRIX",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra038 = {
-            nome: "SMELLS LIKE TEEN SPIRIT",
-            categoria:"MÚSICAS"
+            nome: "lOURAS GELADAS",
+            categoria:"MÚSICA NAC"
         },
         palavra039 = {
             nome: "SUNDAY BLOODY SUNDAY",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA INT"
         },
         palavra040 = {
             nome: "HOTEL CALIFORNIA",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA INT"
         },
         palavra041 = {
             nome: "WELCOME TO THE JUNGLE",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA INT"
         },
         palavra042 = {
             nome: "PESCADOR DE ILUSOES",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra043 = {
             nome: "MULHER DE FASES",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra044 = {
             nome: "SONIFERA ILHA",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra045 = {
             nome: "SO OS LOUCOS SABEM",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra046 = {
             nome: "VOCE ME FAZ TAO BEM",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra047 = {
             nome: "O SEGUNDO SOL",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra048 = {
             nome: "EDUARDO E MONICA",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra049 = {
-            nome: "PRO DIA NASCER FELIZ",
-            categoria:"MÚSICAS"
+            nome: "MALANDRAGEM",
+            categoria:"MÚSICA NAC"
         },
         palavra050 = {
-            nome: "VOCE NAO SOUBE ME AMAR",
-            categoria:"MÚSICAS"
+            nome: "OVELHA NEGRA",
+            categoria:"MÚSICA NAC"
         },
         palavra051 = {
             nome: "ANNA JULIA",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra052 = {
             nome: "TROPA DE ELITE",
-            categoria:"MÚSICAS"
+            categoria:"MÚSICA NAC"
         },
         palavra053 = {
-            nome: "RAZOES E EMOÇOES",
-            categoria:"MÚSICAS"
+            nome: "SEGUNDO SOL",
+            categoria:"MÚSICA NAC"
         },
         palavra054 = {
-            nome: "SO OS LOUCOS SABEM",
-            categoria:"MÚSICAS"
+            nome: "EXAGERADO",
+            categoria:"MÚSICA NAC"
         },
         palavra055 = {
             nome: "BOB DYLAN",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra056 = {
             nome: "MICK JAGGER",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra057 = {
             nome: "RAUL SEIXAS",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR NAC"
         },
         palavra058 = {
             nome: "BONO VOX",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra059 = {
             nome: "MARILYN MANSON",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra060 = {
             nome: "DAVE GROHL",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra061 = {
             nome: "ERIC CLAPTON",
-            categoria:"ROCKSTAR"
+            categoria:"ROCKSTAR INT"
         },
         palavra062 = {
             nome: "SKID ROW",
-            categoria:"BANDAS"
+            categoria:"BANDA INT"
+        },
+        palavra063 = {
+            nome: "CHORAO",
+            categoria:"ROCKSTAR NAC"
+        },
+        palavra064 = {
+            nome: "LULU SANTOS",
+            categoria:"ROCKSTAR NAC"
+        },
+        palavra065 = {
+            nome: "DAVID BOWIE",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra066 = {
+            nome: "SLIPKNOT",
+            categoria:"BANDA INT"
+        },
+        palavra067 = {
+            nome: "SYSTEM OF A DOWN",
+            categoria:"BANDA INT"
+        },
+        palavra068 = {
+            nome: "THE DOORS",
+            categoria:"BANDA INT"
+        },
+        palavra069 = {
+            nome: "KISS",
+            categoria:"BANDA INT"
         },
     ];
 }
