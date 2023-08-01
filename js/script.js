@@ -211,249 +211,253 @@ window.onclick = function(){
 function carregaListaAutomatica(){
     palavras = [
         palavra001 = {
-            nome: "IRLANDA",
-            categoria:"LUGARES"
+            nome: "NIRVANA",
+            categoria:"BANDAS"
         },
         palavra002 = {
-            nome: "EQUADOR",
-            categoria:"LUGARES"
+            nome: "METALLICA",
+            categoria:"BANDAS"
         },
         palavra003 = {
-            nome: "CHILE",
-            categoria:"LUGARES"
+            nome: "AEROSMITH",
+            categoria:"BANDAS"
         },
         palavra004 = {
-            nome: "INDONESIA",
-            categoria:"LUGARES"
+            nome: "BARAO VERMELHO",
+            categoria:"BANDAS"
         },
         palavra005 = {
-            nome: "MALDIVAS",
-            categoria:"LUGARES"
+            nome: "GUNS N ROSES",
+            categoria:"BANDAS"
         },
         palavra006 = {
-            nome: "INGLATERRA",
-            categoria:"LUGARES"
+            nome: "SEPULTURA",
+            categoria:"BANDAS"
         },
         palavra007 = {
-            nome: "GROELANDIA",
-            categoria:"LUGARES"
+            nome: "FOO FIGHTERS",
+            categoria:"BANDAS"
         },
         palavra008 = {
-            nome: "UZBEQUISTAO",
-            categoria:"LUGARES"
+            nome: "LEGIAO URBANA",
+            categoria:"BANDAS"
         },
         palavra009 = {
-            nome: "INDONESIA",
-            categoria:"LUGARES"
+            nome: "THE OFFSPRING",
+            categoria:"BANDAS"
         },
         palavra010 = {
-            nome: "CREGUENHEM",
-            categoria:"LUGARES"
+            nome: "THE ROLLING STONES",
+            categoria:"BANDAS"
         },
         palavra011 = {
-            nome: "BICICLETA",
-            categoria:"TRANSPORTE"
+            nome: "IRON MAIDEN",
+            categoria:"BANDAS"
         },
         palavra012 = {
-            nome: "LANCHA",
-            categoria:"TRANSPORTE"
+            nome: "BLACK SABBATH",
+            categoria:"BANDAS"
         },
         palavra013 = {
-            nome: "NAVIO",
-            categoria:"TRANSPORTE"
+            nome: "PINK FLOYD",
+            categoria:"BANDAS"
         },
         palavra014 = {
-            nome: "TELEFERICO",
-            categoria:"TRANSPORTE"
+            nome: "BON JOVI",
+            categoria:"BANDAS"
         },
         palavra015 = {
-            nome: "MOTOCICLETA",
-            categoria:"TRANSPORTE"
+            nome: "PEARL JAM",
+            categoria:"BANDAS"
         },
         palavra016 = {
-            nome: "BARCO",
-            categoria:"TRANSPORTE"
+            nome: "THE BEATLES",
+            categoria:"BANDAS"
         },
         palavra017 = {
-            nome: "AERONAVE",
-            categoria:"TRANSPORTE"
+            nome: "RED HOT CHILLI PEPPERS",
+            categoria:"BANDAS"
         },
         palavra018 = {
-            nome: "TREM",
-            categoria:"TRANSPORTE"
+            nome: "LINKIN PARK",
+            categoria:"BANDAS"
         },
         palavra019 = {
-            nome: "CAIAQUE",
-            categoria:"TRANSPORTE"
+            nome: "BIQUINI CAVADAO",
+            categoria:"BANDAS"
         },
         palavra020 = {
-            nome: "FUNICULAR",
-            categoria:"TRANSPORTE"
+            nome: "PARALAMAS DO SUCESSO",
+            categoria:"BANDAS"
         },
         palavra021 = {
-            nome: "XICARA",
-            categoria:"OBJETOS"
+            nome: "ULTRAGE A RIGOR",
+            categoria:"BANDAS"
         },
         palavra022 = {
-            nome: "MOEDA",
-            categoria:"OBJETOS"
+            nome: "CHARLIE BROWN JR",
+            categoria:"BANDAS"
         },
         palavra023 = {
-            nome: "ESPARADRAPO",
-            categoria:"OBJETOS"
+            nome: "ENGENHEIROS DO HAWAII",
+            categoria:"BANDAS"
         },
         palavra024 = {
-            nome: "SINO",
-            categoria:"OBJETOS"
+            nome: "CAPITAL INICIAL",
+            categoria:"BANDAS"
         },
         palavra025 = {
-            nome: "CHUVEIRO",
-            categoria:"OBJETOS"
+            nome: "DETONAUTAS",
+            categoria:"BANDAS"
         },
         palavra026 = {
-            nome: "TAMBORETE",
-            categoria:"OBJETOS"
+            nome: "PLANET HEMP",
+            categoria:"BANDAS"
         },
         palavra027 = {
-            nome: "LAMPADA",
-            categoria:"OBJETOS"
+            nome: "ROUPA NOVA",
+            categoria:"BANDAS"
         },
         palavra028 = {
-            nome: "BOCAL",
-            categoria:"OBJETOS"
+            nome: "AXL ROSE",
+            categoria:"ROCKSTAR"
         },
         palavra029 = {
-            nome: "CORTINA",
-            categoria:"OBJETOS"
+            nome: "SLASH",
+            categoria:"ROCKSTAR"
         },
         palavra030 = {
-            nome: "LAPIS",
-            categoria:"OBJETOS"
+            nome: "FREDDIE MERCURY",
+            categoria:"ROCKSTAR"
         },
         palavra031 = {
-            nome: "MELANCIA",
-            categoria:"ALIMENTOS"
+            nome: "JON BON JOVI",
+            categoria:"ROCKSTAR"
         },
         palavra032 = {
-            nome: "AMENDOIM",
-            categoria:"ALIMENTOS"
+            nome: "BRUCE DICKINSON",
+            categoria:"ROCKSTAR"
         },
         palavra033 = {
-            nome: "ESFIRRA",
-            categoria:"ALIMENTOS"
+            nome: "RENATO RUSSO",
+            categoria:"ROCKSTAR"
         },
         palavra034 = {
-            nome: "GOROROBA",
-            categoria:"ALIMENTOS"
+            nome: "ELVIS PRESLEY",
+            categoria:"ROCKSTAR"
         },
         palavra035 = {
-            nome: "JANTAR",
-            categoria:"ALIMENTOS"
+            nome: "KURT COBAIN",
+            categoria:"ROCKSTAR"
         },
         palavra036 = {
-            nome: "SABOROSO",
-            categoria:"ALIMENTOS"
+            nome: "PAUL MCCARTNEY",
+            categoria:"ROCKSTAR"
         },
         palavra037 = {
-            nome: "DESJEJUM",
-            categoria:"ALIMENTOS"
+            nome: "JIMI HENDRIX",
+            categoria:"ROCKSTAR"
         },
         palavra038 = {
-            nome: "MASTIGAR",
-            categoria:"ALIMENTOS"
+            nome: "SMELLS LIKE TEEN SPIRIT",
+            categoria:"MÚSICAS"
         },
         palavra039 = {
-            nome: "ENGOLIR",
-            categoria:"ALIMENTOS"
+            nome: "SUNDAY BLOODY SUNDAY",
+            categoria:"MÚSICAS"
         },
         palavra040 = {
-            nome: "DOCERIA",
-            categoria:"ALIMENTOS"
-        },
-        palavra040 = {
-            nome: "DRAGAO",
-            categoria:"ANIMAIS"
+            nome: "HOTEL CALIFORNIA",
+            categoria:"MÚSICAS"
         },
         palavra041 = {
-            nome: "GALINHA",
-            categoria:"ANIMAIS"
+            nome: "WELCOME TO THE JUNGLE",
+            categoria:"MÚSICAS"
         },
         palavra042 = {
-            nome: "PAVAO",
-            categoria:"ANIMAIS"
+            nome: "PESCADOR DE ILUSOES",
+            categoria:"MÚSICAS"
         },
         palavra043 = {
-            nome: "CAMELO",
-            categoria:"ANIMAIS"
+            nome: "MULHER DE FASES",
+            categoria:"MÚSICAS"
         },
         palavra044 = {
-            nome: "PERU",
-            categoria:"ANIMAIS"
+            nome: "SONIFERA ILHA",
+            categoria:"MÚSICAS"
         },
         palavra045 = {
-            nome: "ZEBRA",
-            categoria:"ANIMAIS"
+            nome: "SO OS LOUCOS SABEM",
+            categoria:"MÚSICAS"
         },
         palavra046 = {
-            nome: "DROMEDARIO",
-            categoria:"ANIMAIS"
+            nome: "VOCE ME FAZ TAO BEM",
+            categoria:"MÚSICAS"
         },
         palavra047 = {
-            nome: "CALANGO",
-            categoria:"ANIMAIS"
+            nome: "O SEGUNDO SOL",
+            categoria:"MÚSICAS"
         },
         palavra048 = {
-            nome: "SAGUI",
-            categoria:"ANIMAIS"
+            nome: "EDUARDO E MONICA",
+            categoria:"MÚSICAS"
         },
         palavra049 = {
-            nome: "LAGARTIXA",
-            categoria:"ANIMAIS"
+            nome: "PRO DIA NASCER FELIZ",
+            categoria:"MÚSICAS"
         },
         palavra050 = {
-            nome: "HIPOPOTAMO",
-            categoria:"ANIMAIS"
+            nome: "VOCE NAO SOUBE ME AMAR",
+            categoria:"MÚSICAS"
         },
         palavra051 = {
-            nome: "A ERA DO GELO",
-            categoria:"TV E CINEMA"
+            nome: "ANNA JULIA",
+            categoria:"MÚSICAS"
         },
         palavra052 = {
-            nome: "HOMEM ARANHA",
-            categoria:"TV E CINEMA"
+            nome: "TROPA DE ELITE",
+            categoria:"MÚSICAS"
         },
         palavra053 = {
-            nome: "CASA MONSTRO",
-            categoria:"TV E CINEMA"
+            nome: "RAZOES E EMOÇOES",
+            categoria:"MÚSICAS"
         },
         palavra054 = {
-            nome: "TELA QUENTE",
-            categoria:"TV E CINEMA"
+            nome: "SO OS LOUCOS SABEM",
+            categoria:"MÚSICAS"
         },
         palavra055 = {
-            nome: "STRANGER THINGS",
-            categoria:"TV E CINEMA"
+            nome: "BOB DYLAN",
+            categoria:"ROCKSTAR"
         },
         palavra056 = {
-            nome: "O REI DO GADO",
-            categoria:"TV E CINEMA"
+            nome: "MICK JAGGER",
+            categoria:"ROCKSTAR"
         },
         palavra057 = {
-            nome: "MULHER MARAVILHA",
-            categoria:"TV E CINEMA"
+            nome: "RAUL SEIXAS",
+            categoria:"ROCKSTAR"
         },
         palavra058 = {
-            nome: "O INCRIVEL HULK",
-            categoria:"TV E CINEMA"
+            nome: "BONO VOX",
+            categoria:"ROCKSTAR"
         },
         palavra059 = {
-            nome: "BOB ESPONJA",
-            categoria:"TV E CINEMA"
+            nome: "MARILYN MANSON",
+            categoria:"ROCKSTAR"
         },
         palavra060 = {
-            nome: "PANICO NA TV",
-            categoria:"TV E CINEMA"
-        }
+            nome: "DAVE GROHL",
+            categoria:"ROCKSTAR"
+        },
+        palavra061 = {
+            nome: "ERIC CLAPTON",
+            categoria:"ROCKSTAR"
+        },
+        palavra062 = {
+            nome: "SKID ROW",
+            categoria:"BANDAS"
+        },
     ];
 }
 
