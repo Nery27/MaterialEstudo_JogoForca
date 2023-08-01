@@ -359,7 +359,7 @@ function carregaListaAutomatica(){
             categoria:"ROCKSTAR INT"
         },
         palavra038 = {
-            nome: "lOURAS GELADAS",
+            nome: "LOURAS GELADAS",
             categoria:"MÚSICA NAC"
         },
         palavra039 = {
