@@ -80,7 +80,7 @@ function comparalistas(letra){
         carregaImagemForca();
 
         if(tentativas == 0){
-            abreModal("OPS!", "Não foi dessa vez ... A palavra secreta era <br>" + palavraSecretaSorteada);
+            abreModal("Que pena! Não foi dessa vez....", "Tente novamente. A palavra secreta era: <br>" + palavraSecretaSorteada);
             piscarBotaoJogarNovamente(true);
         }
     }
@@ -102,7 +102,7 @@ function comparalistas(letra){
 
     if(vitoria == true)
     {
-        abreModal("PARABÉNS!", "Você venceu...");
+        abreModal("PARABÉNS!", "Você acertou, bora mais uma?");
         tentativas = 0;
         piscarBotaoJogarNovamente(true);
     }
@@ -299,7 +299,7 @@ function carregaListaAutomatica(){
             categoria:"BANDA NAC"
         },
         palavra023 = {
-            nome: "ENGENHEIROS DO HAWAII",
+            nome: "INIMIGOS DO REI",
             categoria:"BANDA NAC"
         },
         palavra024 = {
@@ -363,7 +363,7 @@ function carregaListaAutomatica(){
             categoria:"MÚSICA NAC"
         },
         palavra039 = {
-            nome: "SUNDAY BLOODY SUNDAY",
+            nome: "PARADISE CITY",
             categoria:"MÚSICA INT"
         },
         palavra040 = {
@@ -486,6 +486,130 @@ function carregaListaAutomatica(){
             nome: "KISS",
             categoria:"BANDA INT"
         },
+        palavra070 = {
+            nome: "BATERIA",
+            categoria:"INSTRUMENTO"
+        },
+        palavra071 = {
+            nome: "CONTRABAIXO",
+            categoria:"INSTRUMENTO"
+        },
+        palavra072 = {
+            nome: "GUITARRA",
+            categoria:"INSTRUMENTO"
+        },
+        palavra073 = {
+            nome: "VIOLAO",
+            categoria:"INSTRUMENTO"
+        },
+        palavra074 = {
+            nome: "PIANO",
+            categoria:"INSTRUMENTO"
+        },
+        palavra075 = {
+            nome: "PERCURSSAO",
+            categoria:"INSTRUMENTO"
+        },
+        palavra076 = {
+            nome: "TECLADO",
+            categoria:"INSTRUMENTO"
+        },
+        palavra077 = {
+            nome: "CAJON",
+            categoria:"INSTRUMENTO"
+        },
+        palavra078 = {
+            nome: "THE POLICE",
+            categoria:"BANDA INT"
+        },
+        palavra079 = {
+            nome: "DIRE STRAITS",
+            categoria:"BANDA INT"
+        },
+        palavra080 = {
+            nome: "QUEEN",
+            categoria:"BANDA INT"
+        },
+        palavra081 = {
+            nome: "THE WHO",
+            categoria:"BANDA INT"
+        },
+        palavra082 = {
+            nome: "DEEP PURPLE",
+            categoria:"BANDA INT"
+        },
+        palavra083 = {
+            nome: "THE CLASH",
+            categoria:"BANDA INT"
+        },
+        palavra084 = {
+            nome: "VAN HALEN",
+            categoria:"BANDA INT"
+        },
+        palavra085 = {
+            nome: "FLEETWOOD MAC",
+            categoria:"BANDA INT"
+        },
+        palavra086 = {
+            nome: "RUSH",
+            categoria:"BANDA INT"
+        },
+        palavra087 = {
+            nome: "GREEN DAY",
+            categoria:"BANDA INT"
+        },
+        palavra088 = {
+            nome: "GENESIS",
+            categoria:"BANDA INT"
+        },
+        palavra089 = {
+            nome: "THE SEX PISTOLS",
+            categoria:"BANDA INT"
+        },
+        palavra090 = {
+            nome: "WHITESNAKE",
+            categoria: "BANDA INT"
+        },
+        palavra091 = {
+            nome: "ENGENHEIROS DO HAWAII",
+            categoria:"BANDA NAC"
+        },
+        palavra092 = {
+            nome: "O RAPPA",
+            categoria:"BANDA NAC"
+        },
+        palavra093 = {
+            nome: "CAZUZA",
+            categoria:"ROCKSTAR NAC"
+        },
+        palavra094 = {
+            nome: "CASSIA ELLER",
+            categoria:"ROCKSTAR NAC"
+        },
+        palavra095 = {
+            nome: "KID ABELHA",
+            categoria:"BANDA NAC"
+        },
+        palavra096 = {
+            nome: "NX ZERO",
+            categoria:"BANDA NAC"
+        },
+        palavra097 = {
+            nome: "PITTY",
+            categoria:"ROCKSTAR NAC"
+        },
+        palavra098 = {
+            nome: "RATOS DO PORAO",
+            categoria:"BANDA NAC"
+        },
+        palavra099 = {
+            nome: "RAIMUNDOS",
+            categoria:"BANDA NAC"
+        },
+        palavra100 = {
+            nome: "FREJAT",
+            categoria: "ROCKSTAR NAC"
+        }
     ];
 }
 
