@@ -621,7 +621,7 @@ function carregaListaAutomatica(){
         },
         palavra103 = {
             nome: "SLAYER",
-            categoria:"ROCKSTAR INT"
+            categoria:"BANDA INT"
         },
         palavra104 = {
             nome: "PANTERA",
@@ -690,6 +690,66 @@ function carregaListaAutomatica(){
         palavra120 = {
             nome: "HOLLYWOOD ROCK",
             categoria: "FESTIVAL"
+        },
+        palavra121 = {
+            nome: "ARCTIC MONKEYS",
+            categoria: "BANDA INT"
+        },
+        palavra122 = {
+            nome: "CAMISA DE VENUS",
+            categoria:"BANDA NAC"
+        },
+        palavra123 = {
+            nome: "ULTRAJE A RIGOR",
+            categoria:"BANDA NAC"
+        },
+        palavra124 = {
+            nome: "BLITZ",
+            categoria:"BANDA NAC"
+        },
+        palavra125 = {
+            nome: "LOBAO E OS RONALDOS",
+            categoria:"BANDA NAC"
+        },
+        palavra126 = {
+            nome: "PLEBE RUDE",
+            categoria:"BANDA NAC"
+        },
+        palavra127 = {
+            nome: "BIDE OU BALDE",
+            categoria:"BANDA NAC"
+        },
+        palavra128 = {
+            nome: "RPM",
+            categoria:"BANDA NAC"
+        },
+        palavra129 = {
+            nome: "IRA",
+            categoria:"BANDA NAC"
+        },
+        palavra130 = {
+            nome: "HOLLYWOOD ROCK",
+            categoria: "FESTIVAL"
+        },
+        palavra131 = {
+            nome: "JIM MORRISON",
+            categoria: "ROCKSTAR INT"
+        },
+        palavra132 = {
+            nome: "ANGUS YOUNG",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra133 = {
+            nome: "STEVEN TYLER",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra134 = {
+            nome: "SUPLA",
+            categoria:"ROCKSTAR NAC"
+        },
+        palavra135 = {
+            nome: "STING",
+            categoria:"ROCKSTAR INT"
         }
     ];
 }
