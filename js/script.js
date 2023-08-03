@@ -83,6 +83,7 @@ function comparalistas(letra){
             abreModal("Que pena! Não foi dessa vez....", "Tente novamente. A palavra secreta era: <br>" + palavraSecretaSorteada);
             piscarBotaoJogarNovamente(true);
         }
+        
     }
     else{
         mudarStyleLetra("tecla-" + letra, true);
@@ -609,6 +610,86 @@ function carregaListaAutomatica(){
         palavra100 = {
             nome: "FREJAT",
             categoria: "ROCKSTAR NAC"
+        },
+        palavra101 = {
+            nome: "JUDAS PRIEST",
+            categoria:"BANDA INT"
+        },
+        palavra102 = {
+            nome: "MOTORHEAD",
+            categoria:"BANDA INT"
+        },
+        palavra103 = {
+            nome: "SLAYER",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra104 = {
+            nome: "PANTERA",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra105 = {
+            nome: "OZZY OSBOURNE",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra106 = {
+            nome: "SCORPIONS",
+            categoria:"BANDA INT"
+        },
+        palavra107 = {
+            nome: "ANTHRAX",
+            categoria:"BANDA INT"
+        },
+        palavra108 = {
+            nome: "DEF LEPPARD",
+            categoria:"BANDA INT"
+        },
+        palavra109 = {
+            nome: "RAMMSTEIN",
+            categoria:"BANDA INT"
+        },
+        palavra110 = {
+            nome: "ALICE IN CHAINS",
+            categoria: "ROCKSTAR INT"
+        },
+        palavra111 = {
+            nome: "JOHN LENNON",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra112 = {
+            nome: "ROBERT PLANT",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra113 = {
+            nome: "BRUCE SPRINGSTEEN",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra114 = {
+            nome: "ROD STEWART",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra115 = {
+            nome: "JANIS JOPLIN",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra116 = {
+            nome: "BILLY IDOL",
+            categoria:"ROCKSTAR INT"
+        },
+        palavra117 = {
+            nome: "WOODSTOCK",
+            categoria:"FESTIVAL"
+        },
+        palavra118 = {
+            nome: "ROCK IN RIO",
+            categoria:"FESTIVAL"
+        },
+        palavra119 = {
+            nome: "LOLLAPALOOZA",
+            categoria:"FESTIVAL"
+        },
+        palavra120 = {
+            nome: "HOLLYWOOD ROCK",
+            categoria: "FESTIVAL"
         }
     ];
 }
