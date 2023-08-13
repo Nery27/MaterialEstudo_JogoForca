@@ -750,6 +750,26 @@ function carregaListaAutomatica(){
         palavra135 = {
             nome: "STING",
             categoria:"ROCKSTAR INT"
+        },
+        palavra136 = {
+            nome: "NENHUM DE NOS",
+            categoria:"BANDA NAC"
+        },
+        palavra137 = {
+            nome: "CARTA AOS MISSIONARIOS",
+            categoria:"MÚSICA NAC"
+        },
+        palavra138 = {
+            nome: "SYLVINHO BLAU BLAU",
+            categoria:"POP ROCK NAC"
+        },
+        palavra139 = {
+            nome: "INXS",
+            categoria:"BANDA INT"
+        },
+        palavra140 = {
+            nome: "OINGO BOINGO",
+            categoria:"BANDA INT"
         }
     ];
 }
