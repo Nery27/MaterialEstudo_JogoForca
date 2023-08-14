@@ -770,6 +770,34 @@ function carregaListaAutomatica(){
         palavra140 = {
             nome: "OINGO BOINGO",
             categoria:"BANDA INT"
+        },
+        palavra141 = {
+            nome: "UNS E OUTROS",
+            categoria:"BANDA NAC"
+        },
+        palavra142 = {
+            nome: "RED HOT CHILI PEPPERS",
+            categoria:"BANDA INT"
+        },
+        palavra143 = {
+            nome: "ROXETTE",
+            categoria:"BANDA INT"
+        },
+        palavra144 = {
+            nome: "TEARS FOR FEARS",
+            categoria:"BANDA INT"
+        },
+        palavra145 = {
+            nome: "OASIS",
+            categoria:"BANDA INT"
+        },
+        palavra146 = {
+            nome: "SERGUEI",
+            categoria:"ROCKSTAR NAC"
+         },
+        palavra147 = {
+            nome: "RAUL SEIXAS",
+            categoria:"ROCKSTAR NAC"
         }
     ];
 }
